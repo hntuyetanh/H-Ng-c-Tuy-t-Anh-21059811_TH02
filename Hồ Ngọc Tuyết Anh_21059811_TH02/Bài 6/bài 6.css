@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url(https://cdn.sforum.vn/sforum/wp-content/uploads/2023/04/hinh-nen-3d-1.jpg);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.login-form {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #7bbbf7;
+    color: #fff;
+    border: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #092cc8;
+}
+
+.forgot-password {
+    text-align: right;
+}
+
+.forgot-password a {
+    color: #522fed;
+}
+
+.sign-up {
+    text-align: center;
+}
+
+.sign-up a {
+    color: #2f49ef;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="Bài tập 4.css">
+</head>
+<body>
+    <h1> TÍNH CHỈ SỐ BMI </h1>
+    <div class="container">
+        <label for="weight"> Nhập cân nặng? </label>
+        <input type="number" id="weight" name="weight">
+        <br>
+        <label for="height"> Nhập chiều cao? </label>
+        <input type="number" id="height" name="height">
+        <br>
+        <label for="height">Chọn loại tuổi? </label>
+        <!-- <input type="number" id="heitnght" name="height"> -->
+        <select id="old" name="old">
+            <option value="tn">Trung niên</option>
+            <option value="tn_g">Trung niên, già lớn tuổi </option>
+            <option value="g">Già, lớn tuổi</option>
+          </select>
+        <br>
+        <button onclick="calculateBMI()"> Tính BMI</button>
+        <p id="bmi"></p>
+        <p id="bmiCategory">
+        </p> 
+        
+    </div>
+    <script src="Bài tập 4.js"></script>
+</body>
+</html>

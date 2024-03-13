@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.thongtin, .lienhe {
+    flex: 1;
+    padding: 10px;
+}
+.lienhe {
+    flex: 1;
+    padding: 10px;
+    color: blueviolet;
+}
+h1 {
+    color: blue;
+}
+hr {
+    border-color: red;
+    border-top: 10;
+}
+.container input{   
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+}
+.container button {
+    margin-top: 10px;
+    width: 200px;
+    height: 35px;
+    background-color: rgb(28, 212, 172);
+    color: white;
+    border-color: rgb(129, 222, 194);
+}
+#noidung {
+    height: 100px;
+}
